@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# I've changed the real URL out of courtesy to the site owner.
+# For context, this site uses Shopify.
+# Customize this as needed.
+
+curl https://TOPLEVELDOMAIN.com/collections/COMEDIAN?sort_by=created-descending > /PATH/TO/PROJECT/merch-notify/source.html
+
+python3 /PATH/TO/PROJECT/merch-notify/script.py
